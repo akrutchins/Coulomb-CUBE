@@ -36,6 +36,7 @@ void setup() {
 } // End of setup()
 
 double[] calculatePotential(int n) {
+  float p =0;
   for (int i = 1; i <= n; i++) {
     // Random position of an ion in [mm]
     float Xi = random(0, a);
@@ -51,7 +52,7 @@ double[] calculatePotential(int n) {
       pot[k] += ke * q/D;
     }
     // Uncomment this line to print results periodically
-    // if (i % 100000 == 0) { printResult(); }
+     if (i % (N/10) == 0) { p=p+10; println("calculated " + p +"%"); }
   }
   
   printResult();
@@ -60,12 +61,13 @@ double[] calculatePotential(int n) {
 
 void printResult() {
   println(N + " charges put in a CUBE with a side " + a + " [mm]"); 
-  println("--------------");
-  println("[mm]  [V]");
-  println("--------------");
+  println("-----------------");
+  println("[mm]\t[V]");
+  println("-----------------");
   for (int l = 0; l <= STEP; l++) {
     println((l * DELTA) - 40 + "\t" + String.format("%.3f", pot[l]));
   }
+  println("-----------------");
 }
 
 // Calculate distance between point (x, y, z) and point (a, b, c) in [mm]
@@ -74,21 +76,21 @@ double distance(float x, float y, float z, float a, float b, float c) {
 }
 
 //**************************************************************************************************
-// Auxiliary Functions
+//                          Draw on canvas
 //**************************************************************************************************
-
+/*
 void draw() { 
   fill(0); 
   stroke(180);
   strokeWeight(1);
   
   for (int i = 1; i <= Ny * Ny/100; i++) {
-    point(200 + SCALE * random(0, a), 200 + SCALE * random(0, a));
+    //point(200 + SCALE * random(0, a), 200 + SCALE * random(0, a));
   }  
   
   stop();
 }
-
+*/
 // Start timer
 public void startTimer() {
   Sstart = second();  
