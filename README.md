@@ -23,6 +23,7 @@
 ---
 
 ## **Usage Notes**
+- change the size a = 80 and Nx,Ny,Nz as needed.  
 - The output table is printed in the terminal part of the program.
 - This program is designed to handle large datasets efficiently, but performance may vary depending on your hardware configuration.
 
