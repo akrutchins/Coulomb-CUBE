@@ -29,7 +29,6 @@
 ---
 
 ## **Additional Notes**
-- Contributions or suggestions to improve the program are welcome.
 - Feel free to modify the code to suit your specific needs or applications.
 
 ---
