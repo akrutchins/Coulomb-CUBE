@@ -1,5 +1,4 @@
-# Coulomb-CUBE
-# **MQ_MZ_Ejection_SingleQ**
+# **Coulomb-CUBE**
 
 A simple program in **Processing** and **Java** that computes the destribution of a potential fron a billion charges randomly positioned within a cube with a side a. Outputs a table of potential along the line intersecting the cube from one site to another through the center. Helps to esimate space charge created by  more than 10^9 ions confined in the MultiQ.
 
