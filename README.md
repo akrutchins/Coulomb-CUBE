@@ -20,8 +20,6 @@
 
 ### 3. **Run the Program**
 1. Open `Coulomb-CUBE.pde` in Processing.
-2. Run the program to open the **Coulomb-CUBE** canvas window.
-
 ---
 
 ## **Usage Notes**
