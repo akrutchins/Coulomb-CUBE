@@ -25,8 +25,7 @@
 ---
 
 ## **Usage Notes**
-- Ensure the cube parameters (e.g., side length `a`) are correctly defined in the program.
-- The output table will contain a table of potential values along the specified axis.
+- The output table is printed in the terminal part of the program.
 - This program is designed to handle large datasets efficiently, but performance may vary depending on your hardware configuration.
 
 ---
