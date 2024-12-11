@@ -4,13 +4,6 @@
 
 ---
 
-## **Features**
-- Computes the potential distribution from \(10^9\) charges within a cubic volume.
-- Outputs the potential values along a central axis line intersecting the cube.
-- Assists in analyzing space charge effects in systems such as MultiQ ion traps.
-
----
-
 ## **Setup Instructions**
 
 ### 1. **Download Files**
