@@ -32,5 +32,14 @@
 ---
 
 ## **Usage Notes**
-- Ensure the cube parameters (e.g
+- Ensure the cube parameters (e.g., side length `a`) are correctly defined in the program.
+- The output file will contain a table of potential values along the specified axis.
+- This program is designed to handle large datasets efficiently, but performance may vary depending on your hardware configuration.
 
+---
+
+## **Additional Notes**
+- Contributions or suggestions to improve the program are welcome.
+- Feel free to modify the code to suit your specific needs or applications.
+
+---
